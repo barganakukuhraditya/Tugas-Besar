@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Abril Fatface|Kelly Slab:300,400,500,600,700,800,900&effect=neon&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 3px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: small;
+    background-image: url('https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?w=826&t=st=1673278294~exp=1673278894~hmac=ada794151557b4e5aa16baad511b133f40c8b05e99ac85099ee4c98b7a663b09');
+    background-size: auto;
+}
+.form-container{
+
+    position: absolute;
+    background-color: #D8D9CF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow:7px 7px 60px #000;
+}
+    
+.btn{
+
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 1em 0;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    background: #39AEA9;
+    opacity: .6;
+}
+
+button{
+    border: none;
+    margin-top: 5px;
+    padding: 6px 50px;
+    border-radius: 20px;
+    color: black;
+    font-weight: 600;
+    transition: .5s;
+}
+
+button:hover{
+    border: none;
+    padding: 6px 50px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #252525;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: #000 0 0 20px;
+}
+
+.sign-in{
+    padding-top: 1px;
+    font-weight: bolder;
+}
+
+.sign-in a{
+    font-weight: bolder;
+}
+
+.sign-in a:hover{
+    text-decoration: underline;
+}
