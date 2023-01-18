@@ -19,7 +19,6 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="admin.php">Halo Admin</a></li>
-      <!-- <li><a href="tambah_admin.php">Tambah Admin</a></li> -->
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> logout</a></li>

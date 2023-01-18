@@ -1,12 +1,6 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 <link rel="stylesheet" href="print.css">
 
-<?php
-session_start();
-
-include "header_admin.php"
-?>
-
 <body bgcolor="#D8E3E7">
   <table border="1" width="52%" align="center" style="border-collapse: collapse;">
     <tr style="height: 30px; vertical-align: top;">
@@ -29,9 +23,7 @@ include "header_admin.php"
     </tr>
   </table>
   <br>
-  <p>
-    <a style="color: white" class="btn btn-success" href="register.php">Tambah User</a>
-</p>
+  
   <table class="table table-bordered table-hover">
     <thead>
       <tr class="bg-info">
@@ -56,8 +48,8 @@ include "header_admin.php"
         <td><?php echo $d['role']; ?></td>
 
 
-        <td><a class="btn btn-danger" href="hapus.php?delete_data=<?php echo $d['id']; ?>">HAPUS</a>
-          <a class="btn btn-warning" href="edit.php?edit_data=<?php echo $d['id']; ?>">EDIT</a>
+
+        
         </td>
 
       </tr>
@@ -67,5 +59,5 @@ include "header_admin.php"
 
 
   </table>
-<button><a href="print.php">Print</a></button>
+<button onclick="window.print()">Cetak Halaman Ini</button>
 </body>
